@@ -33,23 +33,19 @@ The dataset itself was relatively uniform and low-variance, which meant most res
 
 .
 
-&nbsp;├── data/
+&nbsp;├── Data/
 
-&nbsp;│ ├── raw\_data.csv # Raw Google Ads export
+&nbsp;│ ├── raw\_set.csv # Raw Google Ads export
 
-&nbsp;│ ├── cleaned\_data.csv # Cleaned and standardized data
+&nbsp;│ ├── staging.csv # Cleaned and standardized data
 
-&nbsp;│ └── views/ # Saved SQL views for reuse
-
-&nbsp;│
-
-&nbsp;├── sql/
+&nbsp;├── Sql/
 
 &nbsp;│ └── ads\_project\_code.sql # Full SQL script: cleaning, rollups, metrics
 
 &nbsp;│
 
-&nbsp;├── python/
+&nbsp;├── Python/
 
 &nbsp;│ ├── function\_definitions.ipynb # Clean notebook with only functions
 
@@ -57,9 +53,9 @@ The dataset itself was relatively uniform and low-variance, which meant most res
 
 &nbsp;│
 
-&nbsp;├── tableau/
+&nbsp;├── PowerBI/
 
-&nbsp;│ └── dashboards/ # Tableau workbooks (.twbx)
+&nbsp;│ └── ads\_project\_dashboard.pbix # Interactive dashboard for dynamic data visualization
 
 &nbsp;│
 
